@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ScientificCalculator extends JFrame implements ActionListener {
+public class ScientificCalculatorGUI extends JFrame implements ActionListener {
     private JTextField display;
     private JButton[] numberButtons;
     private JButton[] functionButtons;
@@ -182,6 +182,6 @@ public class ScientificCalculator extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new ScientificCalculator();
+        new ScientificCalculatorGUI();
     }
 }
